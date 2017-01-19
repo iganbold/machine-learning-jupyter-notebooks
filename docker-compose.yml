@@ -1,0 +1,8 @@
+version: '2'
+services:
+  jupyter:
+    image: "iganbold/jupyter"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/srv/notebooks/
