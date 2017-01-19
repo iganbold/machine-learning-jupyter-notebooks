@@ -1,0 +1,51 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @iganbold
+ Watch 133
+  Star 1,849
+ Fork 555 jupyter/notebook
+ Code  Issues 483  Pull requests 9  Projects 6  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathnotebook/.gitignore
+e663bc3  on Feb 25, 2016
+@blink1073 blink1073 Add a jupyter lab page
+13 contributors @minrk @jdfreder @takluyver @willingc @fperez @ellisonbg @Carreau @blink1073 @rgbkrk @mattvonrocketstein @msabramo @bfroehle @cowlicks
+RawBlameHistory     
+36 lines (33 sloc)  462 Bytes
+MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.coverage
+src
+
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
